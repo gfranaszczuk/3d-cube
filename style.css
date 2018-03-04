@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.placeholder {
+    position: relative;
+    perspective:5000px;
+    perspective-origin:;
+    width: 800px;
+    height: 800px;
+    margin: 50px auto;
+}
+
+
+
+#kostka {
+    position: absolute;
+    transform-style: preserve-3d;
+    width: 100%;
+    height: 100%;
+    transition: all 2s;
+    transform:;
+}
+
+@keyframes obracanie {
+    from {}
+    to {
+        transform:rotateX(180deg) rotateY(360deg);
+    }
+}
+
+#kostka>div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size:;
+    color: #eed;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    opacity: 1;
+    border: 0px solid #ccb;
+    background-color: #fff;
+}
+
+.sciana1 {
+    transform: translateZ(400px);
+}
+
+.sciana2 {
+    transform: rotateX(180deg) translateZ(400px);
+}
+
+.sciana3 {
+    transform: rotateY(-90deg) translateZ(400px);
+}
+
+.sciana4 {
+    transform: rotateY(90deg) translateZ(400px);
+}
+
+.sciana5 {
+    transform: rotateX(90deg) translateZ(400px);
+}
+
+.sciana6 {
+    transform: rotateX(-90deg) translateZ(400px);
+}
+
+/* ZAWARTOSC KOSTKI */
+
+.menu {
+    float: right;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding:15px 15px;
+    color:#222;
+    cursor: pointer;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #222;
+}
+
+#kostka > div > img {
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.foot {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #222;
+}
+
+.foot img {
+    margin-right: 3px;
+}
+
+.copy {
+    float: left;
+        padding: 20px 15px 10px 15px;
+        font-size: 14px;
+}
+.socialmedia {
+    float: right;
+        padding: 15px;
+}
+
+.content {
+    color: #000;
+    margin-top: 110px;
+    text-align: justify;
+    padding: 45px;
+}
+
+.content h1 {
+    margin-bottom: 35px;
+}
+
+.content p {
+    padding: 0px 40px;
+}
+
+.sciana2 .content ul {
+    width:200px;
+
+    list-style-type: circle;
+    display: inline-block;
+}
+
+.listy {
+    width:410px;
+        margin: 20px auto;
+        display: block;
+}
+
+.gallery {
+    width: 780px;
+    margin: 10px auto;
+}
+
+.gallery img {
+    float: left;
+    width: 150px;
+    height: 200px;
+}
+
+.sciana1 .content {
+    text-align: center;
+}
+
+.sciana1 .content p, h1 {
+    text-align: justify;
+}
+
+.sciana1 .content img {
+    width:450px;
+    height: 300px;
+    margin: 30px auto;
+}
+
+.sciana5 .content img {
+    float: left;
+    margin-left: 35px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.formularz {
+    width:300px;
+    font-size: 12px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.formularz input {
+    width: 100%;
+    margin: 10px;
+}
+
+input[value="Submit"] {
+    height:45px;
+    margin-top: 35px;
+    background-color: #234;
+    border:2px solid #234;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+input[value="Submit"]:hover {
+    background-color: #fff;
+    border:2px solid #234;
+    color: #234;
+}
+
+input[type="Text"] {
+    height: 35px;
+    border:2px solid #234;
+    border-radius: 5px;
+    margin-left: ;
+}

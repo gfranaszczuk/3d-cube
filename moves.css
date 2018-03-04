@@ -1,0 +1,161 @@
+
+.turn1sc2 {
+
+        transform:rotateX(180deg) rotateY(360deg);
+}
+
+.turn1sc3 {
+
+        transform:rotateX(360deg) rotateY(90deg);
+}
+
+.turn1sc4 {
+
+        transform:rotateX(360deg) rotateY(-90deg);
+}
+
+.turn1sc5 {
+
+        transform: rotateX(270deg) rotateY(360deg);
+}
+
+.turn1sc6 {
+
+        transform: rotateX(90deg) rotateY(360deg);
+}
+
+
+ /* SCIANA 2 */
+
+.turn2sc1 {
+
+        transform:rotateX(0deg) rotateY(0deg);
+}
+
+.turn2sc3 {
+
+        transform:rotateX(360deg) rotateY(90deg);
+}
+
+.turn2sc4 {
+
+        transform:rotateX(360deg) rotateY(-90deg);
+}
+
+.turn2sc5 {
+
+        transform: rotateX(270deg) rotateY(0deg);
+}
+
+.turn2sc6 {
+
+        transform: rotateX(90deg) rotateY(0deg);
+}
+
+/* SCIANA 3 */
+
+.turn3sc1 {
+
+        transform:rotateX(0deg) rotateY(0deg);
+}
+
+.turn3sc2 {
+
+        transform:rotateX(180deg) rotateY(360deg);
+}
+
+.turn3sc4 {
+
+        transform:rotateX(0deg) rotateY(-90deg);
+}
+
+.turn3sc5 {
+
+        transform: rotateX(270deg) rotateY(360deg);
+}
+
+.turn3sc6 {
+
+        transform: rotateX(90deg) rotateY(360deg);
+}
+
+/* SCIANA 4 */
+
+.turn4sc1 {
+
+        transform:rotateX(0deg) rotateY(0deg);
+}
+
+.turn4sc2 {
+
+        transform:rotateX(180deg) rotateY(360deg);
+}
+
+.turn4sc3 {
+
+        transform:rotateX(360deg) rotateY(90deg);
+}
+
+.turn4sc5 {
+
+        transform: rotateX(270deg) rotateY(360deg);
+}
+
+.turn4sc6 {
+
+        transform: rotateX(90deg) rotateY(360deg);
+}
+
+/* SCIANA 5 */
+
+.turn5sc1 {
+
+        transform:rotateX(0deg) rotateY(0deg);
+}
+
+.turn5sc2 {
+
+        transform:rotateX(180deg) rotateY(360deg);
+}
+
+.turn5sc3 {
+
+        transform:rotateX(360deg) rotateY(90deg);
+}
+
+.turn5sc4 {
+
+        transform:rotateX(360deg) rotateY(-90deg);
+}
+
+.turn5sc6 {
+
+        transform: rotateX(90deg) rotateY(0deg);
+}
+
+/* SCIANA 6 */
+
+.turn6sc1 {
+
+        transform:rotateX(0deg) rotateY(0deg);
+}
+
+.turn6sc2 {
+
+        transform:rotateX(180deg) rotateY(360deg);
+}
+
+.turn6sc3 {
+
+    transform:rotateX(360deg) rotateY(90deg);
+}
+
+.turn6sc4 {
+
+        transform:rotateX(360deg) rotateY(-90deg);
+}
+
+.turn6sc5 {
+
+        transform: rotateX(270deg) rotateY(360deg);
+}
